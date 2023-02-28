@@ -1,7 +1,10 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "chlenchlenchlenchlenchlenchlenchlenchlenchlenchlen" << std::endl << std::endl;
-    return -9000;
+    int a = 5;
+    int& b = a;
+    cout << b << endl;
+    return 0;
 }
